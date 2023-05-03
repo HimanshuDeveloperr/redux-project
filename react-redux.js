@@ -14,4 +14,6 @@ const counterSubscriber=()=>{
 
 }
 
-store.subscribe(counterReducer)
+store.subscribe(counterSubscriber)
+
+store.dispatch({type:'increment'})
