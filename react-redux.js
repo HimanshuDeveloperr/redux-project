@@ -13,3 +13,5 @@ const counterSubscriber=()=>{
     console.log(latestState)
 
 }
+
+store.subscribe(counterReducer)
